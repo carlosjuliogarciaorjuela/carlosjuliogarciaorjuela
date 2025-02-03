@@ -45,7 +45,7 @@ export default function Home() {
             target="_blank"
             rel="noopener noreferrer"
           >
-            Ibagué Tolima
+            Ibagué Tolima Col.
           </a>
         </div>
       </main>
