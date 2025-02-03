@@ -1,0 +1,90 @@
+version: '3.9'
+
+networks:
+  erp-network:
+    driver: bridge
+
+services:
+  postgres:
+    image: postgres
+    restart: always
+    env_file: .env
+    environment:
+      POSTGRES_DB: ${DB_NAME}
+      POSTGRES_USER: ${DB_USER}
+      POSTGRES_PASSWORD: ${DB_PASSWORD}
+    ports:
+      - "5432:5432"
+    volumes:
+      - postgres_data:/var/lib/postgresql/data
+    networks:
+      - erp-network
+    healthcheck:
+      test: [ "CMD-SHELL", "pg_isready -U ${DB_USER} -d ${DB_NAME}" ]
+      interval: 5s
+      timeout: 5s
+      retries: 5
+
+  django:
+    build: ./erp_core
+    command: bash -c "python manage.py migrate && python manage.py runserver 0.0.0.0:8000"
+    env_file: .env
+    environment:
+      DJANGO_SETTINGS_MODULE: erp_core.settings
+    volumes:
+      - ./erp_core:/app/code
+    ports:
+      - "8000:8000"
+    depends_on:
+      postgres:
+        condition: service_healthy
+    networks:
+      - erp-network
+
+  #  fastapi:
+  #    depends_on:
+  #      postgres:
+  #        condition: service_healthy
+  #    build: ./ml_service
+  #    command: uvicorn ml_service.main:app --host 0.0.0.0 --port 8001 --reload
+  #    env_file: .env
+  #    volumes:
+  #      - .:/app  # Monta el código en /app dentro del contenedor
+  #    working_dir: /app  # Asegura que el contenedor trabaje desde /app
+  #    ports:
+  #      - "8001:8001"
+  #    networks:
+  #      - erp-network
+
+
+
+  nextjs:
+    build: ./erp-frontend
+    command: npm run dev
+    env_file: .env
+    ports:
+      - "3000:3000"
+    volumes:
+      - ./erp-frontend:/app
+      - /app/node_modules
+    networks:
+      - erp-network
+
+  pgadmin:
+    image: dpage/pgadmin4
+    restart: always
+    env_file: .env
+    environment:
+      PGADMIN_DEFAULT_EMAIL: ${PGADMIN_EMAIL}
+      PGADMIN_DEFAULT_PASSWORD: ${PGADMIN_PASSWORD}
+    ports:
+      - "5050:80"
+    depends_on:
+      - postgres
+    networks:
+      - erp-network
+
+volumes:
+  postgres_data:
+
+
