@@ -1,0 +1,17 @@
+# Ignorar archivos de configuración locales
+.env.local
+*.log
+*.pid
+
+# Ignorar bases de datos locales (si tienes archivos de MongoDB en tu máquina)
+data/
+dump/
+
+# Ignorar archivos de control de versión
+.git
+.gitignore
+
+# Ignorar archivos innecesarios de sistema
+.DS_Store
+.vscode/
+node_modules/

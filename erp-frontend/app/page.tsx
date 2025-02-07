@@ -1,101 +1,65 @@
-import Image from "next/image";
+import { Carousel } from '@/components/Carousel/Carousel';
+import "slick-carousel/slick/slick.css";
+import "slick-carousel/slick/slick-theme.css";
 
-export default function Home() {
+
+export default function HomePage() {
+  const carouselImages = [
+      '/images/carousel/img1.svg',
+      '/images/carousel/img2.svg',
+      '/images/carousel/img3.svg',
+      '/images/carousel/img4.svg',
+      '/images/carousel/img5.svg',
+      '/images/carousel/img6.svg',
+      '/images/carousel/img7.svg',
+      '/images/carousel/img8.svg',
+      '/images/carousel/img9.svg',
+      '/images/carousel/img10.svg',
+      '/images/carousel/img11.svg',
+      '/images/carousel/img12.svg',
+
+  ];
+
   return (
-    <div className="grid grid-rows-[20px_1fr_20px] items-center justify-items-center min-h-screen p-8 pb-20 gap-16 sm:p-20 font-[family-name:var(--font-geist-sans)]">
-      <main className="flex flex-col gap-8 row-start-2 items-center sm:items-start">
-        <Image
-          className="dark:invert"
-          src="/logokyj.svg"
-          alt="Next.js logo"
-          width={180}
-          height={38}
-          priority
-        />
-        <ol className="list-inside list-decimal text-sm text-center sm:text-left font-[family-name:var(--font-geist-mono)]">
-          <li className="mb-2">
-            Soluciones S.A.S{" "}
-            <code className="bg-black/[.05] dark:bg-white/[.06] px-1 py-0.5 rounded font-semibold">
-              dev cegarcia
-            </code>
-            .
-          </li>
-          <li>Un servicio seguro y de calidad.</li>
-        </ol>
+    <>
+         {/* Hero Section con Carousel */}
+      <section className="relative w-full h-[600px] flex items-center justify-center">
+        <Carousel images={carouselImages} speed={5000}>
+          <div className="absolute inset-0 bg-gradient-to-r from-blue-900/50 to-indigo-900/40 flex items-center justify-center text-center px-6">
+            <div className="max-w-3xl">
+              <h1 className="text-4xl md:text-6xl font-bold text-white mb-6 drop-shadow-lg">
+                Soluciones S.A.S KyJ
+              </h1>
+              <p className="text-lg md:text-2xl text-gray-200 leading-relaxed">
+                Un Servicio Seguro y de Calidad
+              </p>
+            </div>
+          </div>
+        </Carousel>
+      </section>
 
-        <div className="flex gap-4 items-center flex-col sm:flex-row">
-          <a
-            className="rounded-full border border-solid border-transparent transition-colors flex items-center justify-center bg-foreground text-background gap-2 hover:bg-[#383838] dark:hover:bg-[#ccc] text-sm sm:text-base h-10 sm:h-12 px-4 sm:px-5"
-            // href="https://vercel.com/new?utm_source=create-next-app&utm_medium=appdir-template-tw&utm_campaign=create-next-app"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            <Image
-              className="dark:invert"
-              src="/vercel.svg"
-              alt="Vercel logomark"
-              width={20}
-              height={20}
-            />
-            Deploy now
-          </a>
-          <a
-            className="rounded-full border border-solid border-black/[.08] dark:border-white/[.145] transition-colors flex items-center justify-center hover:bg-[#f2f2f2] dark:hover:bg-[#1a1a1a] hover:border-transparent text-sm sm:text-base h-10 sm:h-12 px-4 sm:px-5 sm:min-w-44"
-            // href="https://nextjs.org/docs?utm_source=create-next-app&utm_medium=appdir-template-tw&utm_campaign=create-next-app"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            Ibagué Tolima Col.
-          </a>
+      {/* Sección - Nuestra Empresa */}
+      <section className="w-full py-24 bg-gray-100 flex items-center justify-center">
+        <div className="max-w-5xl px-6 text-center">
+          <h2 className="text-3xl md:text-5xl font-bold text-gray-900 mb-8">
+            Nuestra Empresa
+          </h2>
+          <p className="text-lg md:text-xl text-gray-700 leading-relaxed max-w-3xl mx-auto">
+            En <strong>Soluciones S.A.S KyJ</strong>, nos especializamos en la construcción de obras civiles,
+            brindando soluciones innovadoras y de alta calidad en cada proyecto. Nos enfocamos en la seguridad,
+            eficiencia y excelencia, garantizando satisfacción en cada obra que realizamos.
+          </p>
+          <div className="mt-10">
+            <a
+              href="/sobre-nosotros"
+              className="bg-blue-600 hover:bg-blue-700 text-white font-semibold py-4 px-8 rounded-lg transition duration-300"
+            >
+              Conócenos Más
+            </a>
+          </div>
         </div>
-      </main>
-      <footer className="row-start-3 flex gap-6 flex-wrap items-center justify-center">
-        <a
-          className="flex items-center gap-2 hover:underline hover:underline-offset-4"
-          // href="https://nextjs.org/learn?utm_source=create-next-app&utm_medium=appdir-template-tw&utm_campaign=create-next-app"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          <Image
-            aria-hidden
-            src="/file.svg"
-            alt="File icon"
-            width={16}
-            height={16}
-          />
-          Learn
-        </a>
-        <a
-          className="flex items-center gap-2 hover:underline hover:underline-offset-4"
-          // href="https://vercel.com/templates?framework=next.js&utm_source=create-next-app&utm_medium=appdir-template-tw&utm_campaign=create-next-app"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          <Image
-            aria-hidden
-            src="/window.svg"
-            alt="Window icon"
-            width={16}
-            height={16}
-          />
-          Examples
-        </a>
-        <a
-          className="flex items-center gap-2 hover:underline hover:underline-offset-4"
-          // href="https://nextjs.org?utm_source=create-next-app&utm_medium=appdir-template-tw&utm_campaign=create-next-app"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          <Image
-            aria-hidden
-            src="/globe.svg"
-            alt="Globe icon"
-            width={16}
-            height={16}
-          />
-          Go to nextjs.org →
-        </a>
-      </footer>
-    </div>
+      </section>
+
+    </>
   );
 }
