@@ -7,7 +7,7 @@ type NavMenuProps = {
 const NavMenu = ({ className }: NavMenuProps) => {
   const links = [
     { name: "Inicio", href: "/" },
-    { name: "Nuestra empresa", href: "/features" },
+    { name: "Nuestra empresa", href: "/sobre-nosotros" },
     { name: "Soluciones", href: "/pricing" },
     { name: "Proyectos", href: "/pricing" },
     { name: "Contacto", href: "/contact" },
