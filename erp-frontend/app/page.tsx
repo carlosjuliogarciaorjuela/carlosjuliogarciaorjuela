@@ -1,5 +1,6 @@
 import { Carousel } from '@/components/Carousel/Carousel';
-import ValuesSection  from '@/components/ValuesSection/ValuesSection';
+import ValuesSection from "@/components/ValuesSection/ValuesSection";
+import ClientsCarousel from "@/components/ ClientsCarousel/ ClientsCarousel";
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
 
@@ -102,8 +103,10 @@ export default function HomePage() {
           </section>
           {/* Seccion de nuetros valores */}
           <ValuesSection />
+          {/* Seccion de nuestros clientes*/}
+          <ClientsCarousel />
 
-
+          
       </>
   );
 }
