@@ -1,10 +1,10 @@
 import HeroSection from "@/components/HeroSection/HeroSection";
+import MissionVisionSection from "@/components/MissionVisionSection/MissionVisionSection";
 import ValuesSection from "@/components/ValuesSection/ValuesSection";
+import CompanySection from "@/components/CompanySection/CompanySection";
 import ClientsCarousel from "@/components/ClientsCarousel/ClientsCarousel";
 import OurServices from "@/app/_components/OurServices/OurServices";
 import CivilWorks from "@/components/CivilWorks/CivilWorks";
-import CompanySection from "@/components/CompanySection/CompanySection";
-import MissionVisionSection from "@/components/MissionVisionSection/MissionVisionSection";
 
 export default function HomePage() {
   return (

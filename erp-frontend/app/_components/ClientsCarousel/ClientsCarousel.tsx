@@ -1,3 +1,4 @@
+// components/ClientsCarousel.tsx
 "use client";
 
 import Slider from "react-slick";
@@ -32,23 +33,29 @@ export default function ClientsCarousel() {
 
   return (
     <section className="w-full py-16 bg-white">
-      <div className="max-w-6xl mx-auto px-6 text-center">
+      <div className="max-w-7xl mx-auto px-6 text-center">
+        {" "}
+        {/* Ancho máximo del contenedor */}
         <div className="text-3xl md:text-5xl font-bold text-yellow-500 mb-10">
           Nuestros Clientes
         </div>
-        <Slider {...settings} className="flex items-center justify-center">
-          {clientLogos.map((logo, index) => (
-            <div key={index} className="p-4">
-              <Image
-                src={logo}
-                alt={`Cliente ${index + 1}`}
-                width={200}
-                height={200}
-                className="mx-auto h-52 object-contain"
-              />
-            </div>
-          ))}
-        </Slider>
+        <div className="mx-auto">
+          {" "}
+          {/* Centra el carrusel */}
+          <Slider {...settings}>
+            {clientLogos.map((logo, index) => (
+              <div key={index} className="p-4">
+                <Image
+                  src={logo}
+                  alt={`Cliente ${index + 1}`}
+                  width={200} // Ancho fijo
+                  height={200} // Altura fija
+                  className="mx-auto object-contain" // Ajusta object-contain/cover/fill según tus necesidades
+                />
+              </div>
+            ))}
+          </Slider>
+        </div>
       </div>
     </section>
   );
