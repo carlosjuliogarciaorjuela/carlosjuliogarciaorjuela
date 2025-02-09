@@ -3,7 +3,7 @@ import MissionVisionSection from "@/components/MissionVisionSection/MissionVisio
 import ValuesSection from "@/components/ValuesSection/ValuesSection";
 import CompanySection from "@/components/CompanySection/CompanySection";
 import ClientsCarousel from "@/components/ClientsCarousel/ClientsCarousel";
-import OurServices from "@/app/_components/OurServices/OurServices";
+import OurServices from "@/components/OurServices/OurServices";
 import CivilWorks from "@/components/CivilWorks/CivilWorks";
 
 export default function HomePage() {
