@@ -1,3 +1,5 @@
+"use client";
+
 // components/Footer/Footer.tsx
 import Link from "next/link";
 import Logo from "@/components/ui/Logo";
@@ -10,9 +12,7 @@ const Footer = () => {
           {/* Sección Logo y Descripción */}
           <div className="space-y-4">
             <Logo className="h-8 w-auto text-white" />
-            <p className="text-gray-400">
-              Soluciones KYJ S.A.S
-            </p>
+            <p className="text-gray-400">Soluciones KYJ S.A.S</p>
           </div>
 
           {/* Enlaces Rápidos */}

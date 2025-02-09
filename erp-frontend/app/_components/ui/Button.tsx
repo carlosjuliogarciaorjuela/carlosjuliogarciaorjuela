@@ -1,3 +1,5 @@
+"use clients";
+
 import Link, { LinkProps } from "next/link";
 import { ReactNode } from "react";
 import { VariantProps, cva } from "class-variance-authority";
