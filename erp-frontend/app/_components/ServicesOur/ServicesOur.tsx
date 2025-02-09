@@ -89,7 +89,7 @@ const services = [
   },
 ];
 
-const OurServices = () => {
+const ServicesOur = () => {
   useEffect(() => {
 	if (typeof window !== "undefined") {
 	  import("scrollreveal").then((ScrollReveal) => {
@@ -127,4 +127,4 @@ const OurServices = () => {
   );
 };
 
-export default OurServices;
+export default ServicesOur;

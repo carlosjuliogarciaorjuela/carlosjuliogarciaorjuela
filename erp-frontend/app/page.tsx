@@ -3,7 +3,7 @@ import MissionVisionSection from "@/components/MissionVisionSection/MissionVisio
 import ValuesSection from "@/components/ValuesSection/ValuesSection";
 import CompanySection from "@/components/CompanySection/CompanySection";
 import ClientsCarousel from "@/components/ClientsCarousel/ClientsCarousel";
-import OurServices from "@/components/OurServices/OurServices";
+import ServicesOur from "@/components/ServicesOur/ServicesOur";
 import CivilWorks from "@/components/CivilWorks/CivilWorks";
 
 export default function HomePage() {
@@ -25,7 +25,7 @@ export default function HomePage() {
       <ClientsCarousel />
 
       {/*Sección de nuestros productos*/}
-      <OurServices />
+      <ServicesOur />
 
       {/*Seccion de bras*/}
       <CivilWorks />
