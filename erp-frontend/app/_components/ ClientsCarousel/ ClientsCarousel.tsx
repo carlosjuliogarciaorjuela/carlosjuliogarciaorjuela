@@ -7,10 +7,10 @@ import "slick-carousel/slick/slick-theme.css";
 const clientLogos = [
   "/images/clients/cliente1.svg",
   "/images/clients/cliente2.svg",
+  "/images/clients/cliente3.svg",
   "/images/clients/cliente1.svg",
   "/images/clients/cliente2.svg",
-  "/images/clients/cliente1.svg",
-  "/images/clients/cliente2.svg",
+  "/images/clients/cliente3.svg",
 ];
 
 export default function ClientsCarousel() {

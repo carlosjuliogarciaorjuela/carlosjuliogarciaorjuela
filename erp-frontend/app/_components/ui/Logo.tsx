@@ -1,6 +1,6 @@
 // components/ui/Logo.tsx
 import Image from "next/image";
-import logo from "@/public/images/Logo.svg";
+import logo from "@/public/images/LogoBlack.svg";
 
 type LogoProps = {
   className?: string;

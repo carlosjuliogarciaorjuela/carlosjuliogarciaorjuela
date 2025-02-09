@@ -2,11 +2,11 @@ import { MdThumbUp, MdVerified, MdPeople, MdLightbulb } from "react-icons/md";
 
 export default function ValuesSection() {
   const values = [
-      {
-        title: "Satisfacción del Cliente",
-        description: "Orientados a dar satisfacción a nuestros clientes.",
-        icon: <MdThumbUp className="text-yellow-500 text-5xl" />,
-      },
+    {
+      title: "Satisfacción del Cliente",
+      description: "Orientados a dar satisfacción a nuestros clientes.",
+      icon: <MdThumbUp className="text-yellow-500 text-5xl" />,
+    },
     {
       title: "Excelencia",
       description: "Excelencia en la calidad del servicio.",
@@ -47,9 +47,9 @@ export default function ValuesSection() {
   return (
     <section className="w-full bg-white py-20 px-6 md:px-12">
       <div className="max-w-6xl mx-auto">
-        <h2 className="text-4xl font-bold text-yellow-500 text-center mb-12">
+        <div className="text-4xl font-bold text-yellow-500 text-center mb-12">
           Nuestros Valores
-        </h2>
+        </div>
 
         {/* Grid de valores */}
         <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-4 gap-8">
@@ -59,9 +59,9 @@ export default function ValuesSection() {
               className="bg-gray-100 rounded-xl shadow-lg p-6 flex flex-col items-center text-center hover:scale-105 transition-transform"
             >
               {value.icon}
-              <h3 className="text-2xl font-semibold text-yellow-500 mt-4">
+              <div className="text-2xl font-semibold text-yellow-500 mt-4">
                 {value.title}
-              </h3>
+              </div>
               <p className="text-lg text-gray-700 mt-2">{value.description}</p>
             </div>
           ))}

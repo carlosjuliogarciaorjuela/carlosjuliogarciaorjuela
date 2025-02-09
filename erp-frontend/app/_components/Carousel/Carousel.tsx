@@ -36,7 +36,7 @@ export const Carousel = ({
     <div className="relative w-full h-auto max-h-screen min-h-[400px] md:min-h-[600px] overflow-hidden">
       <Slider {...settings}>
         {images.map((img, index) => (
-          <div key={index} className="w-full flex items-center justify-center">
+          <div key={index} className="w-auto flex items-center justify-center">
             <Image
               src={img}
               alt={`Carousel ${index + 1}`}
