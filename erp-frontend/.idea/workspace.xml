@@ -7,41 +7,8 @@
     <list default="true" id="d9dcd0dc-a4fc-4b00-ac81-5cec04624c5e" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/../docker-compose.yml" beforeDir="false" afterPath="$PROJECT_DIR$/../docker-compose.yml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/_components/Carousel/Carousel.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/app/_components/Carousel/Carousel.tsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/_components/CompanySection/CompanySection.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/app/_components/CompanySection/CompanySection.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/_components/HeroSection/HeroSection.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/app/_components/HeroSection/HeroSection.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/images/carousel/img1.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/images/carousel/img1.svg" beforeDir="false" afterPath="$PROJECT_DIR$/public/images/carousel/img1.svg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/images/carousel/img10.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/images/carousel/img10.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/images/carousel/img10.svg" beforeDir="false" afterPath="$PROJECT_DIR$/public/images/carousel/img10.svg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/images/carousel/img11.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/images/carousel/img11.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/images/carousel/img11.svg" beforeDir="false" afterPath="$PROJECT_DIR$/public/images/carousel/img11.svg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/images/carousel/img12.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/images/carousel/img12.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/images/carousel/img12.svg" beforeDir="false" afterPath="$PROJECT_DIR$/public/images/carousel/img12.svg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/images/carousel/img2.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/images/carousel/img2.svg" beforeDir="false" afterPath="$PROJECT_DIR$/public/images/carousel/img2.svg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/images/carousel/img3.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/images/carousel/img3.svg" beforeDir="false" afterPath="$PROJECT_DIR$/public/images/carousel/img3.svg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/images/carousel/img4.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/images/carousel/img4.svg" beforeDir="false" afterPath="$PROJECT_DIR$/public/images/carousel/img4.svg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/images/carousel/img5.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/images/carousel/img5.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/images/carousel/img5.svg" beforeDir="false" afterPath="$PROJECT_DIR$/public/images/carousel/img5.svg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/images/carousel/img6.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/images/carousel/img6.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/images/carousel/img6.svg" beforeDir="false" afterPath="$PROJECT_DIR$/public/images/carousel/img6.svg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/images/carousel/img7.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/images/carousel/img7.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/images/carousel/img7.svg" beforeDir="false" afterPath="$PROJECT_DIR$/public/images/carousel/img7.svg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/images/carousel/img8.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/images/carousel/img8.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/images/carousel/img8.svg" beforeDir="false" afterPath="$PROJECT_DIR$/public/images/carousel/img8.svg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/images/carousel/img9.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/images/carousel/img9.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/images/carousel/img9.svg" beforeDir="false" afterPath="$PROJECT_DIR$/public/images/carousel/img9.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/_components/MissionVisionSection/MissionVisionSection.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/app/_components/MissionVisionSection/MissionVisionSection.tsx" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -113,7 +80,7 @@
       <workItem from="1738984548630" duration="2042000" />
       <workItem from="1739046777241" duration="32375000" />
       <workItem from="1739083758400" duration="665000" />
-      <workItem from="1739144485575" duration="4809000" />
+      <workItem from="1739144485575" duration="8534000" />
     </task>
     <servers />
   </component>
