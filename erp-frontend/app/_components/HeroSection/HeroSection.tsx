@@ -2,23 +2,23 @@
 import { Carousel } from "@/components/Carousel/Carousel";
 
 const carouselImages = [
-  "/images/carousel/img1.svg",
-  "/images/carousel/img2.svg",
-  "/images/carousel/img3.svg",
-  "/images/carousel/img4.svg",
-  "/images/carousel/img5.svg",
-  "/images/carousel/img6.svg",
-  "/images/carousel/img7.svg",
-  "/images/carousel/img8.svg",
-  "/images/carousel/img9.svg",
-  "/images/carousel/img10.svg",
-  "/images/carousel/img11.svg",
-  "/images/carousel/img12.svg",
-  "/images/carousel/img13.svg",
-  "/images/carousel/img14.svg",
-  "/images/carousel/img15.svg",
-  "/images/carousel/img16.svg",
-  "/images/carousel/img17.svg",
+  "/images/carousel/img1.png",
+  "/images/carousel/img2.png",
+  "/images/carousel/img3.png",
+  "/images/carousel/img4.png",
+  "/images/carousel/img5.png",
+  "/images/carousel/img6.png",
+  "/images/carousel/img7.png",
+  "/images/carousel/img8.png",
+  "/images/carousel/img9.png",
+  "/images/carousel/img10.png",
+  "/images/carousel/img11.png",
+  "/images/carousel/img12.png",
+  "/images/carousel/img13.png",
+  "/images/carousel/img14.png",
+  "/images/carousel/img15.png",
+  "/images/carousel/img16.png",
+  "/images/carousel/img17.png"
 ];
 
 export default function HeroSection() {
