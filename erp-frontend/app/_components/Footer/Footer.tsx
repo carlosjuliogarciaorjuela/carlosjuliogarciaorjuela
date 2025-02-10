@@ -38,7 +38,7 @@ const Footer = () => {
               <Logo className="h-20 w-auto text-gray-900 sm:h-24 lg:h-28" />
             </div>
             <p className="text-gray-600 text-sm sm:text-base text-center md:text-left">
-              Soluciones KYJ S.A.S - Transformación digital para tu negocio
+              Soluciones KYJ S.A.S
             </p>
             <div className="flex justify-center md:justify-start space-x-4 sm:space-x-5 pt-2">
               <SocialIcon href="https://facebook.com">
@@ -105,7 +105,7 @@ const Footer = () => {
                 target="_blank"
               >
                 <FaWhatsapp className="h-5 w-5 flex-shrink-0" />
-                Chatea por WhatsApp
+                WhatsApp
               </Link>
             </div>
           </div>
@@ -141,7 +141,7 @@ const Footer = () => {
         {/* Copyright */}
         <div className="border-t border-gray-200 mt-6 md:mt-8 pt-6 md:pt-8 text-center text-gray-600">
           <p className="text-xs sm:text-sm">
-            &copy; {new Date().getFullYear()} ERP System. Todos los derechos
+            &copy; {new Date().getFullYear()} ERP System KyJ. Todos los derechos
             reservados.
             <br className="hidden sm:block" />
             Desarrollado por{" "}

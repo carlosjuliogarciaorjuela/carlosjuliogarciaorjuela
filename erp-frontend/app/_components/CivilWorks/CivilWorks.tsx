@@ -50,7 +50,7 @@ const CivilWorks = () => {
           <div className="card-obras flex flex-col lg:flex-row bg-white shadow-lg rounded-lg overflow-hidden">
             <div className="w-full lg:w-1/2">
               <Image
-                src="/images/civilworks/civilwork.svg"
+                src="/images/civilworks/civilwork1.svg"
                 alt="Obras Civiles 1"
                 width={500}
                 height={500}
