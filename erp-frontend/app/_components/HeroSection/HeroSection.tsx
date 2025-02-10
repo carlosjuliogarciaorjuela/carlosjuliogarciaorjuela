@@ -3,7 +3,6 @@ import { Carousel } from "@/components/Carousel/Carousel";
 
 const carouselImages = [
   "/images/carousel/img1.svg",
-  "/images/carousel/img1.svg",
   "/images/carousel/img2.svg",
   "/images/carousel/img3.svg",
   "/images/carousel/img4.svg",
