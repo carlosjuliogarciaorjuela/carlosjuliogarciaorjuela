@@ -40,7 +40,7 @@ const NextArrow: React.FC<ArrowProps> = ({ onClick }) => (
 export const Carousel = ({
   images,
   autoplay = true,
-  speed = 3000,
+  speed = 2000,
   children,
 }: CarouselProps) => {
   const settings = {

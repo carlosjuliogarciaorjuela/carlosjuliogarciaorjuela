@@ -10,7 +10,7 @@ export default function CompanySection() {
         </div>
         <div className="text-lg md:text-xl text-gray-700 leading-relaxed max-w-3xl mx-auto">
           Bienvenido a <strong>K&J SOLUCIONES Y ASESORÍAS.</strong> Somos una
-          empresa 100% Ibaguereña, dedicada a brindar soluciones en
+          empresa 100% Tolimense, dedicada a brindar soluciones en
           mantenimiento, instalación y mantenimientos industriales.
         </div>
         <div className="mt-10">

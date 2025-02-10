@@ -14,12 +14,17 @@ const carouselImages = [
   "/images/carousel/img10.svg",
   "/images/carousel/img11.svg",
   "/images/carousel/img12.svg",
+  "/images/carousel/img13.svg",
+  "/images/carousel/img14.svg",
+  "/images/carousel/img15.svg",
+  "/images/carousel/img16.svg",
+  "/images/carousel/img17.svg",
 ];
 
 export default function HeroSection() {
   return (
     <section className="relative w-full aspect-[16/9] h-auto">
-      <Carousel images={carouselImages} speed={5000}>
+      <Carousel images={carouselImages} speed={3000}>
         <div className="absolute inset-0 bg-gradient-to-r from-blue-900/50 to-indigo-900/40 flex items-center justify-center">
           <div className="max-w-7xl w-full px-4 sm:px-6 lg:px-8">
             <h1 className="text-4xl sm:text-5xl md:text-6xl lg:text-7xl font-bold text-white mb-4 md:mb-6 text-center drop-shadow-xl">
