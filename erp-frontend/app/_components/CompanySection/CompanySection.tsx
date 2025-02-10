@@ -19,7 +19,7 @@ export default function CompanySection() {
         <div className="mt-10">
           <Link
             href="https://wa.link/ggznsr"
-            className="bg-text-green-600 hover:bg-green-700 text-white font-semibold py-4 px-8 rounded-lg transition duration-300"
+            className="bg-green-200 hover:bg-green-300 text-white font-semibold py-4 px-8 rounded-lg transition duration-300"
           >
             Contactar
           </Link>

@@ -56,7 +56,7 @@ const Header = () => {
       {/* Menú desplegable móvil */}
       {isMenuOpen && (
         <div
-          className="md:hidden fixed left-0 w-full bg-white shadow-lg"
+          className="md:hidden fixed left-0 w-full bg-white/30 backdrop-blur-md  shadow-lg"
           style={{ top: "5rem" }}
         >
           {" "}

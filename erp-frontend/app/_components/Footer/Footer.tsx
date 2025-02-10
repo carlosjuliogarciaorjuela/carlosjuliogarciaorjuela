@@ -101,7 +101,7 @@ const Footer = () => {
               <p className="text-gray-600 text-sm sm:text-base">Carrera</p>
               <Link
                 href="https://wa.link/ggznsr"
-                className="inline-flex items-center gap-2 text-green-600 hover:text-green-800 mt-2 text-sm sm:text-base"
+                className="inline-flex items-center gap-2 text-green-200 hover:text-green-300 mt-2 text-sm sm:text-base"
                 target="_blank"
               >
                 <FaWhatsapp className="h-5 w-5 flex-shrink-0" />

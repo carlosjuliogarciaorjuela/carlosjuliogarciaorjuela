@@ -21,7 +21,7 @@ const NavMenu = ({ className }: NavMenuProps) => {
         <Link
           key={link.name}
           href={link.href}
-          className="text-gray-600 hover:text-blue-600 px-3 py-2 text-sm font-medium transition-colors"
+          className="text-black hover:text-blue-600 px-3 py-2 text-sm font-medium transition-colors"
         >
           {link.name}
         </Link>
