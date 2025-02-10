@@ -3,7 +3,10 @@ import Link from "next/link";
 
 export default function CompanySection() {
   return (
-    <section className="w-full py-24 bg-white flex items-center justify-center">
+    <section
+      id="nuestra-empresa"
+      className="w-full py-24 bg-white flex items-center justify-center"
+    >
       <div className="max-w-5xl px-6 text-center">
         <div className="text-3xl md:text-5xl font-bold text-gray-900 mb-8">
           Nuestra Empresa
@@ -25,4 +28,3 @@ export default function CompanySection() {
     </section>
   );
 }
-

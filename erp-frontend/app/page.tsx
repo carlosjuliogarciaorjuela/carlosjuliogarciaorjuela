@@ -12,8 +12,10 @@ export default function HomePage() {
       {/* Hero Section -Carousel */}
       <HeroSection />
 
-      {/* Sección - Nuestra Empresa */}
-      <CompanySection />
+      {/* Sección - Nuestra Empresa con ID para el anchor link */}
+      <section id="nuestra-empresa">
+        <CompanySection />
+      </section>
 
       {/* Seccion Mision -Visión */}
       <MissionVisionSection />

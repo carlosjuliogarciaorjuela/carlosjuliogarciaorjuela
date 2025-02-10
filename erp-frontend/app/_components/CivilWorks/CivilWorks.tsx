@@ -38,7 +38,7 @@ const CivilWorks = () => {
   }, []);
 
   return (
-    <section className="relative py-16 px-1 ">
+    <section id="proyectos" className="relative py-16 px-1 ">
       <div className="max-w-6xl mx-auto">
         <div className="text-4xl font-bold text-gray-800 text-center mb-12">
           Obras Civiles
