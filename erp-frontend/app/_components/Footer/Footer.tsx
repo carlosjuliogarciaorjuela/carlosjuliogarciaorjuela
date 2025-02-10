@@ -53,7 +53,7 @@ const Footer = () => {
               <SocialIcon href="https://twitter.com">
                 <FaTwitter className="h-5 w-5 sm:h-6 sm:w-6" />
               </SocialIcon>
-              <SocialIcon href="https://wa.me/573001234567">
+              <SocialIcon href="https://wa.link/ggznsr">
                 <FaWhatsapp className="h-5 w-5 sm:h-6 sm:w-6" />
               </SocialIcon>
             </div>
@@ -100,7 +100,7 @@ const Footer = () => {
             <div className="space-y-1.5 sm:space-y-2">
               <p className="text-gray-600 text-sm sm:text-base">Carrera</p>
               <Link
-                href="https://wa.me/573001234567"
+                href="https://wa.link/ggznsr"
                 className="inline-flex items-center gap-2 text-green-600 hover:text-green-800 mt-2 text-sm sm:text-base"
                 target="_blank"
               >

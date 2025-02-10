@@ -18,8 +18,8 @@ export default function CompanySection() {
         </div>
         <div className="mt-10">
           <Link
-            href="/sobre-nosotros"
-            className="bg-blue-600 hover:bg-blue-700 text-white font-semibold py-4 px-8 rounded-lg transition duration-300"
+            href="https://wa.link/ggznsr"
+            className="bg-text-green-600 hover:bg-green-700 text-white font-semibold py-4 px-8 rounded-lg transition duration-300"
           >
             Contactar
           </Link>
