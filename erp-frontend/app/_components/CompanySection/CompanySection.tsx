@@ -18,7 +18,7 @@ export default function CompanySection() {
         </div>
         <div className="mt-10">
           <Link
-            href="https://wa.link/ggznsr"
+            href="https://w.app/kyjsoluciones"
             className="bg-green-200 hover:bg-green-300 text-white font-semibold py-4 px-8 rounded-lg transition duration-300"
           >
             Contactar

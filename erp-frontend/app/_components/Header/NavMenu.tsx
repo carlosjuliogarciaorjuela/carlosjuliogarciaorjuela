@@ -12,7 +12,7 @@ const NavMenu = ({ className }: NavMenuProps) => {
     { name: "Nuestra empresa", href: "/#nuestra-empresa" },
     { name: "Soluciones", href: "/#soluciones" },
     { name: "Proyectos", href: "/#proyectos" },
-    { name: "Contacto", href: "https://wa.link/ggznsr" },
+    { name: "Contacto", href: "https://w.app/kyjsoluciones" },
   ];
 
   return (
